@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #061b3a;
+}
+.nav-item{
+    padding-left: 20px;
+    text-wrap: nowrap;
+}
+.nav-item ul a{
+    color: #fff;
+    background-color: rgb(255, 128, 0);
+}
+.nav-item ul a:hover{
+    color: black;
+    background-color:rgb(255, 128, 0);
+    transition: 0.5s ease;
+}
+.nav-item a p:hover{
+   color:rgb(255, 128, 0) ;
+}
+button .navbar-toggler-icon{
+    background-color: #fff;
+    border-radius: 30%;
+  
+}
+.nav-item ul{
+    padding: 0;
+    box-shadow: 0 3px 0.2px black;
+}
+.nav-item a span:hover {
+    color: rgb(255, 128, 0);
+}
+.container-fluid{
+    padding: 0;
+    overflow-x: hidden;
+}
+.col{
+   display: flex;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.col-6 h1{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+    text-wrap: wrap;
+    
+}
+.text-black p{
+font-size: 23px;
+}
+
+.text-black{
+    padding: 70px;
+}
+
+.col-4 i{
+padding: 8px;
+margin-top: 10px;
+margin-right: 5px;
+background: #061b3a;
+display: inline-block;
+color: #fff;
+border-radius: 50%;
+}
+.col-4{
+    padding: 30px;
+}
+
+.container{
+    margin: 0;
+}
+
+
+@media screen and (max-width:992px)
+{
+    .col-6{
+        width: 100%;
+    }
+   .col-4{
+    width: 100%;
+    padding-left: 40px;
+   }
+}
+
